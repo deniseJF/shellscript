@@ -1,0 +1,17 @@
+#!/bin/bash
+# sistema - mostra informações sobre o sistema
+
+
+
+# Pede confirmação antes de executar
+echo         "Buscar dados do sistema? [sn]"
+read RESPOSTA   # comentário no meio da linha
+test "$RESPOSTA" = "n" && exit
+echo "Data e Horário:"
+date
+echo
+echo "Uso do disco:"
+df
+echo 
+echo "Usuários Conectados:"
+w

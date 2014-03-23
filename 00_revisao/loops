@@ -1,0 +1,35 @@
+#!/bin/bash
+
+#while test -f /tmp/lock
+#do
+#  echo "Script travado"
+#  sleep 1
+#done
+
+for fruta in maçã banana uva
+do
+  echo "Contando: $fruta"
+done
+
+for passo in $(seq 10)
+do
+  echo "Contando: $passo"
+done
+
+i=0
+while test $i -le 10
+do
+  i=$((i+1))
+  echo "Conta i: $i"
+done
+
+#while :
+#do
+#  if test -f /tmp/lock
+#  then
+#    echo "Aguardo liberação do lock"
+#    sleep 1
+#  else
+#    break
+#  fi
+

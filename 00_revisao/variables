@@ -1,0 +1,7 @@
+echo "Armazenando comando em variável \$(date):"
+HOJE=$(date)
+echo $HOJE
+echo
+echo "Usando o unset:"
+unset HOJE
+echo $HOJE

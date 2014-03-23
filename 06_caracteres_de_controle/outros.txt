@@ -1,0 +1,18 @@
+
+COMANDOS DE APAGAR A TELA:
+ESC[0J	até o fim da tela
+ESC[1J	até o começo da tela
+ESC[2J	a tela toda
+ESC[0K	até o fim da linha
+ESC[1K	até o começo da linha
+ESC[2K	a linha toda
+
+(padrão n=1)
+
+ESC[nM	apaga n linhas para baixo
+ESC[nP	apaga n caracteres à direita
+ESC[nX	limpa n caracteres à direita (coloca espaços)
+ESC[n@	insere n espaços em branco
+ESC[nL	insere n linhas em branco
+ESC[nS	move a tela n linhas para cima
+ESC[nT  move a tela n linhas para baixo

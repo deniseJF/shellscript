@@ -1,0 +1,8 @@
+date: data
+read: ler input do usuario
+test "$RESPOSTA" = "n" && exit
+w: usuarios logados
+df: ocupação do disco
+VARIAVEL=$(date): armazenar saída de comando dentro de variável;
+não pode haver espaços ao redor do igual na declaração de variáveis.
+env: ver variáveis do sistema

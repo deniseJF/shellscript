@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "O nome deste script é: $0"
+echo "Recebidos $# argumentos: $*"
+echo "arg1: $1"
+echo "arg2: $2"
+
